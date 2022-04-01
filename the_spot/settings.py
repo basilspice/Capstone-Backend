@@ -79,9 +79,11 @@ WSGI_APPLICATION = 'the_spot.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'thespot',
-        'USER': 'postgres',
-        'PASSWORD': 'sei'
+        'NAME': 'd7dbhmhij3riuf',
+        'HOST': 'ec2-52-3-60-53.compute-1.amazonaws.com',
+        'PORT': '5432',
+        'USER': 'kzrmhfgsinezvz',
+        'PASSWORD': '034fae5eea0f81e0716d387b1ba280400f705fcf1785c0e3ef0729f8dac85a6b'
     }
 }
 
