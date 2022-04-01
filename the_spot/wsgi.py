@@ -7,20 +7,20 @@ For more information on this file, see
 https://docs.djangoproject.com/en/4.0/howto/deployment/wsgi/
 """
 
-# import os
-
-# from django.core.wsgi import get_wsgi_application
-
-# os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'the_spot.settings')
-
-# application = get_wsgi_application()
-
 import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "prompt.settings")
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'the_spot.settings')
 
-from whitenoise.django import DjangoWhiteNoise
+application = get_wsgi_application()
 
-application = DjangoWhiteNoise(get_wsgi_application())
+# import os
+
+# from django.core.wsgi import get_wsgi_application
+
+# os.environ.setdefault("DJANGO_SETTINGS_MODULE", "prompt.settings")
+
+# from whitenoise.django import DjangoWhiteNoise
+
+# application = DjangoWhiteNoise(get_wsgi_application())
