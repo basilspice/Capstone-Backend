@@ -1,1 +1,1 @@
-web: waitress-serve --listen=*:8000 the_spot.wsgi:application
+web: waitress-serve the_spot.wsgi:application
