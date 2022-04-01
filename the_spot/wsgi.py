@@ -10,7 +10,7 @@ https://docs.djangoproject.com/en/4.0/howto/deployment/wsgi/
 import os
 from whitenoise import WhiteNoise
 from django.core.wsgi import get_wsgi_application
-from the_spot import api
+
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'the_spot.settings')
 
 application = get_wsgi_application()
