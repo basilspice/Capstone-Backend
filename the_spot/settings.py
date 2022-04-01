@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-vk14g+p38s!*_bhtjhnzg3p=vt%$ra$w5d&p5d4=)zcq$kd$&4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'strawberry-crumble-67655.herokuapp.com']
+ALLOWED_HOSTS = ['strawberry-crumble-67655.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     
 ]
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 ROOT_URLCONF = 'the_spot.urls'
 
 TEMPLATES = [
